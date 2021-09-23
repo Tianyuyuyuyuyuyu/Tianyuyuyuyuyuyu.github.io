@@ -563,6 +563,11 @@ Transform:Rotate(Vector3 axis, float angle, Space relativeTo = Space.Self);
 <h2 id="四元数"><a href="#四元数" class="headerlink" title="四元数"></a>四元数</h2><h3 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h3><pre class=" language-c#"><code class="language-c#">//复数：1个实数+1个虚部
 //四元数：1个实数+3个虚部
 H= w+xi+yj+zk
+
+//i是虚数单位，i^2等于-1  j、k同理
+//i^2=j^3=k^2=ijk=-1
+
+//w^2+x^2+y^2+z^2 = 1
 </code></pre>
 <h3 id="向量叉乘图"><a href="#向量叉乘图" class="headerlink" title="向量叉乘图"></a>向量叉乘图</h3><p><img src="/2021/09/23/EulerAngleQuaternion/VectorCross-product.png" alt="左手"></p>
 <h4 id="理解"><a href="#理解" class="headerlink" title="理解"></a>理解</h4><p>j为Y轴，i为X轴，k为Z轴</p>
